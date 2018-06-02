@@ -9,8 +9,177 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    background-color: #EEE;
+
+}
+h1{
+ text-align: center;
 }
 
+.typography , .color, .buttonBig , .pictures {
+    color: #000000;
+   background-color: #C0D1D9;
+    padding: 5px 32px 15px 32px;
+    border-radius: 20pt;
+    width: 550px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#regu{
+    font-size: 16pt;
+   line-height: 32pt;
+
+}
+#Bold { 
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+
+
+h3{
+    text-align: center;
+}
+.color1{
+    background-color: #66B764; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20pt;
+
+}
+.color2{
+    background-color: #6A5AA3; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20pt;
+}
+.color3{
+    background-color: #DDC8E3; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20pt;
+}
+.color4{
+    background-color: #F9EE7E; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20pt;
+}
+/* button gedoe*/
+
+.buttonOne {
+    border-radius: 0px;
+    background-color: #333;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 20pt;
+    
+  }
+  
+  .buttonOne span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonOne span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonOne:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonOne:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .buttonTwo {
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:  #333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buttonTwo:hover {background-color: #6A5AA3}
+  
+  .buttonTwo:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .buttonThree {
+    position: relative;
+    background-color:  #333;
+    border: none;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buttonThree:after {
+    content: "";
+    background: #DDC8E3;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.buttonThree:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
